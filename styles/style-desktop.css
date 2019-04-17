@@ -1,21 +1,21 @@
 @media only screen and (min-width: 992px) {
     .container {
     width: 960px;
-}
-.nav_menu_nav {
-display:inline;
-}
-.nav-menu {
-display:none;   
-} 
-.box_global, .h2-ci-head {
+    }
+   .nav_menu_nav {
+    display:inline;
+    }
+    .nav-menu {
+    display:none;   
+    } 
+    .box_global, .h2-ci-head {
     width: 25 vw;
     height: 40vw;
     margin-bottom: 10px;
     text-align: center;
     font-size:100%;
-}
-}
+    }
+    }
 @media only screen and (min-width: 1200px) {
     .container {
     width: 1140px;
@@ -31,7 +31,6 @@ display:none;
     height: 20vw;
     margin-bottom: 10px;
     text-align: center;
-       
     }
     .p {
      font-size: 1vw;    
@@ -40,4 +39,4 @@ display:none;
         font-size: 1vw;
     }
     
-        }
+    }
