@@ -97,12 +97,12 @@ nav {
         margin-top: 25px;
         margin-bottom: 3px;
         font-weight: 900;
-        font-size: 21px;
+        font-size: 140%;
         text-align: center;
         color: white;
  }
 .h2-ci-head {
-        font-size:16px;
+        font-size:100%;
         display: inline;
  }       
 .circle {
@@ -126,7 +126,7 @@ nav {
  } 
 .p {
         margin-top: 30px;
-        margin-bottom: 30px;
+        margin-bottom: 10px;
         margin-left: 35px;
         margin-right: 35px;
         font-size: 16px;
@@ -206,55 +206,4 @@ nav {
         float: right;
         margin-right: auto;
         padding: 0 20px;
-        }
-.box_global {
-        width: 30vw;
-        height: 30vw;
-        margin-bottom: 10px;
-        text-align: center;
-        margin-top: 1px;
-        }
-.nav_menu_nav {
-        display:none;
-        }      
-@media only screen and (max-width: 576px) {
-        .container {
-        width: 100%;
-        }
-        .box_global {
-        width: 80vw;
-        height: 80vw;
-        margin-bottom: 10px;
-        text-align: center;
-        }
-        }             
-@media only screen and (min-width: 768px) {
-        .container {
-        width: 720px;
-        }
-        .h1-ci-head_1 {
-        display:inline;       
-        }
-        }
-@media only screen and (min-width: 992px) {
-        .container {
-        width: 960px;
-        }
-        }
-@media only screen and (min-width: 1200px) {
-        .container {
-        width: 1140px;
-        }
-        .nav_menu_nav {
-        display:inline;
-        }
-        .nav-menu {
-        display: none;   
-        }
-        .box_global {
-        width: 20vw;
-        height: 20vw;
-        margin-bottom: 10px;
-        text-align: center;
-        }
         }

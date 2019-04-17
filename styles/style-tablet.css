@@ -1,0 +1,39 @@
+   .box_global, .h2-ci-head, .icon-space {
+    width: 70vw;
+    height: 70vw;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 80%
+    }
+    .icon-space {
+        font-size: 140%;
+    }
+    .nav_menu_nav {
+    display:none;
+    }
+   @media only screen and (mmin-width: 576px) {
+    .container {
+    width: 100%;
+    }
+    .nav_menu_nav {
+    display:none;
+    }
+    }             
+@media only screen and (min-width: 768px) {
+    .container {
+    width: 720px;
+    }
+    .box_global, .h2-ci-head, .icon-space {
+    width: 30vw;
+    height: 50vw;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 80%
+    }
+    .icon-space {
+        font-size: 130%;
+    }
+    .nav_menu_nav {
+        display:none;
+    }
+    }
