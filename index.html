@@ -4,31 +4,44 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/reset.css">
-    <link rel="stylesheet" href="styles/style.css">
-    <link rel="stylesheet" href="styles/style-tablet.css">
-    <link rel="stylesheet" href="styles/style-desktop.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
-          integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-    <link rel="stylesheet" media="(min-width:720px)" href="styles/style-tablet.css">
-    <link rel="stylesheet" media="(min-width:960px)" href="styles/style-desktop.css">
+    integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" media="(max-width:576px)" href="styles/style-mobile.css">
+    <link rel="stylesheet" media="(min-width:576px)" href="styles/style-mobile.css">
+    <link rel="stylesheet" media="(min-width:768px)" href="styles/style-tablet.css">
+    <link rel="stylesheet" media="(min-width:995px)" href="styles/style-desktop.css">
+    <link rel="stylesheet" media="(min-width:1200px)" href="styles/style-desktop-max.css">
     <title>Responnsywny projekt </title>
 </head>
 <body>
-                        <!-- Section navigation-->
+<!-- navigation-->
     <nav>
         <div class="container container-flex"> 
             <img src="assets/logo.png" alt="logo">
-                <div class="nav_menu_nav">
-                    <span href="#"class="navi">Sekcjon_1</span>
-                    <span href="#"class="navi">Sekcjon_2</span>
-                    <span href="#"class="navi">Sekcjon_3</span>
-                    <span href="#"class="navi">Sekcjon_4</span>
+            <div class="nav_menu_nav">
+                <span href="#"class="navi">Sekcjon_1</span>
+                <span href="#"class="navi">Sekcjon_2</span>
+                <span href="#"class="navi">Sekcjon_3</span>
+                <span href="#"class="navi">Sekcjon_4</span>
                 <button class="btn-green">Get action</button>
-                </div>
-    <img class="nav-menu" src="menu.png" alt="menu">
-        </div>
+            </div>
+            <div class="nav-menu">
+                <div class="btn-group">
+                    <button type=" button" class="btn btn-primary">Menu</button>
+                    <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Sekcja_1</a></li>
+                        <li><a href="#">Sekcja_2</a></li>
+                        <li><a href="#">Sekcja_3</a></li>
+                        <li><a href="#">Sekcja_4</a></li>
+                    </ul>
+                </div>    
+            </div>
     </nav>
 <!--  Section Header -->
     <section id=landing-page>
@@ -48,111 +61,29 @@
             </div>
         </div>
     </section>
-                           <!-- Section box-->
+<!-- Section box-->
+    <section>
+    <div class="container">
+        <div class="box-cursys">
+            <h2>Popular Courses</h2>
+                <p>Make your way down a Path and build 
+                        specific skill help you land an <br>amazing job.
+                        Sapente  itaque vero iure quaerat assumenda molestiae cum.
+                </p>
+        </div>
+        <div id="boxes-container"></div>
+    </section>    
     <section >
-        <div class="courses">
-            <div class="boxes-container">
-                <div class="container-header-box" >   
-                    <h1 class="h1-ci-head_1">Popular Courses
-                        <p class="p-1">
-                            Make your way down a Path and build 
-                            specific skill help you land an amazing job.
-                            Sapente  itaque vero iure quaerat assumenda molestiae cum.
-                        </p>
-                    </h1>
-                </div>
-                <div class=" box-1 box_global">
-                    <h1 class="h1-ci-head">Programming in Python</h1>
-                    <h2 class="h2-ci-head">
-                        <span class="circle"></span>
-                        <span class="circle2"></span>
-                        <span class="circle2"></span>
-                        <p class="icon-space">Beginer</p>
-                    </h2>
-                        <p class="p">Quod consectetur euis obcaecati sapiente!
-                        Eum distinctio veniam eligendi tenetur
-                        magnam porro, laborum optio quis amet quam illo optio eum.</p>
-                        <button class="btn-box btn-white-box">Viev Course</button>
-                </div>
-                <div class="box-2 box_global">
-                    <h1 class="h1-ci-head">Android mobile Development</h1>
-                    <h2 class="h2-ci-head">
-                        <span class="circle"></span>
-                        <span class="circle"></span>
-                        <span class="circle2"></span>
-                         <p class="icon-space">Intermediate</p>
-                    </h2>
-                        <p class="p"> Expedita qui eaque facere soluta, rerum 
-                        tempore hic animi amet culpa sit voluptate 
-                        unde sed quas quos ofiicja est nostrum 
-                        ducimus unde maiores fugit.</p>
-                        <button class="btn-box btn-white-box">Viev Course</button> 
-                </div>
-                <div class="box-3 box_global">
-                    <h1 class="h1-ci-head">React.js Workshop</h1>
-                    <h2 class="h2-ci-head">
-                        <span class="circle"></span>
-                        <span class="circle"></span>
-                        <span class="circle"></span>
-                        <p class="icon-space">Advanced</p>
-                    </h2>
-                        <p class="p"> Nostrum magni, iure nemo soluta sed
-                        perferendis repallat aligendi eveniet 
-                        assumanda possimus moliita amet id doloribus saepe est</p>
-                        <button class="btn-box btn-white-box">Viev Course</button> 
-                </div>
-                <div class="box-4 box_global">
-                    <h1 class="h1-ci-head">Backend in Node.js</h1>
-                    <h2 class="h2-ci-head">
-                        <span class="circle"></span>
-                        <span class="circle"></span>
-                        <span class="circle"></span>
-                        <p class="icon-space">Advanced</p>
-                    </h2>
-                    <p class="p"> Voluptatibus deserunt quas ullam iste. 
-                    Autem hihil explicabo doloremque nam possimus 
-                    quae, veritatis obcecati reprehenderit mollitia 
-                    dolores, his, similique</p>
-                    <button class="btn-box btn-white-box">Viev Course</button> 
-                </div>
-                <div class="box-5 box_global">
-                    <h1 class="h1-ci-head"> User Experience Design</h1>
-                    <h2 class="h2-ci-head">
-                        <span class="circle"></span>
-                        <span class="circle2"></span>
-                        <span class="circle2"></span>
-                        <p class="icon-space">Beginer</p>
-                    </h2>
-                    <p class="p"> Parro aut quos, ducimus placeat odio recusandae 
-                         quas perspiciatis corrupti quibusdam. 
-                        Aut voluptate dolores, enim velit doloremaue accusntim culpa</p>
-                    <button class="btn-box btn-white-box">Viev Course</button> 
-                </div>
-                <div class="box-6 box_global">
-                    <h1 class="h1-ci-head">iOS mobile Development</h1>
-                    <h2 class="h2-ci-head">
-                        <span class="circle"></span>
-                        <span class="circle"></span>
-                        <span class="circle2"></span>
-                        <p class="icon-space">Intermediate</p>
-                    </h2> 
-                    <p class="p"> Quo odit ad, sed eveniet ut expedita,
-                        rem laborum!Excepturi tempore totam,
-                        at , eum, eos debits molestias reprehenderit 
-                        officis commodi ,et facere enim </p>
-                    <button class="btn-box btn-white-box">Viev Course</button> 
-                </div>
-            </div>
-    <div class="footer-box">
+        <div class="footer-box">
         <h1 class="footer-box-font" >
-        Do You already have a particular topic in mind?<br>
-        Discover more of our specjalized courses.</h1>
-    </div>
-    <div class="center" >
+            Do You already have a particular topic in mind?<br>
+            Discover more of our specjalized courses.</h1>
+        </div>
+        <div class="center" >
         <button class="btn-footer" >Discover More Courses</button> 
-    </div>
+        </div>
     </section>
-    <!--  Footer-->
+<!--  Footer-->
     <footer class="footer">
         <div class="container">
             <p >All right reserved 
@@ -160,7 +91,7 @@
             <i class="fab fa-twitter fa-1.5x"></i>
             <i class="fas fa-hashtag fa-1.5x"></i> 
             </p> 
-        </div>
+       </div>
     </footer>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
@@ -168,5 +99,6 @@
     integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" 
     integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="files_js/sec_box.js"></script>  
 </body>
 </html>
