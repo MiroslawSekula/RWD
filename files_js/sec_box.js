@@ -49,7 +49,7 @@ listOfBoxes = [
       
     },
     ];
-    document.addEventListener("DOMContentLoaded", function() {
+    document.addEventListener('DOMContentLoaded', function() {
     let boxesContainer = document.getElementById("boxes-container");
       listOfBoxes.forEach(element => {
       let boxDiv = document.createElement("div");

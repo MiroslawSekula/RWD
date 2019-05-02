@@ -111,10 +111,11 @@ h6 {
 }
 .content-style{
   margin-bottom: 4%;
+  
 }
 .content-style-2 {
   margin-top: 10%;
-}
+  }
 .test, h6 {
   display: inline;
 }

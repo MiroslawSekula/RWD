@@ -21,10 +21,13 @@
   width: 95%;
   color: white;
   text-align: center;
-  font-size: 100%;
+  
 }
 .btn-box {
-  position: absolute; 
+  position: absolute;
+  top: 78%;
+  height:13% ;
+  width: 35%;
   background: transparent;
   border: 3px solid white;
   padding:2%;
@@ -33,6 +36,10 @@
   text-align: center;
   color: white;
   bottom: 6%;
-  font-size: 100%;
+  font-size: 90%;
   box-shadow:3px 3px 6px #54b688;
+}
+.content-style-2 {
+  margin-top: 10%;
+  font-size: 100%;
 }

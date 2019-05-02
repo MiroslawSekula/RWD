@@ -24,7 +24,10 @@
     font-size: 90%;
   }
   .btn-box {
-    position: absolute; 
+    position: absolute;
+    top: 80%;
+    height:13% ;
+    width: 35%; 
     background: transparent;
     border: 3px solid white;
     padding:2%;
@@ -34,5 +37,9 @@
     text-align: center;
     color: white;
     bottom: 4%;
-    font-size: 100%;
+    font-size: 90%;
+  }
+  .content-style-2 {
+    margin-top: 10%;
+    font-size: 90%;
   }

@@ -25,15 +25,15 @@
 }
 .btn-box {
   position: absolute;
-  top: 78%;
+  top: 85%;
   height:13% ;
-  width: 35%; 
+  width: 40%; 
   background: transparent;
   border: 3px solid white;
   padding:2%;
-  margin-left: 33%;
-  margin-right: 33%;
-  margin-bottom: 10%;
+  margin-left: 31%;
+  margin-right: 31%;
+  margin-bottom: 15%;
   text-align: center;
   font-size: 90%;
   color: white;
@@ -42,6 +42,7 @@
   box-shadow:3px 3px 6px #54b688;
 }
 .content-style-2 {
-  margin-top: 3%;
-  font-size: 90%;
+  position: absolute;
+  margin-top: 10%;
+  font-size: 68%;
 }
