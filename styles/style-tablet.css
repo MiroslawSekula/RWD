@@ -25,7 +25,7 @@
   }
   .btn-box {
     position: absolute;
-    top: 80%;
+    top: 70%;
     height:13% ;
     width: 35%; 
     background: transparent;
@@ -41,5 +41,5 @@
   }
   .content-style-2 {
     margin-top: 10%;
-    font-size: 90%;
+    font-size: 100%;
   }
